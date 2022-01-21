@@ -29,6 +29,7 @@ body{
 	margin: 5px;
 	padding-left: 20px;
 	background-color: lightgray;
+	overflow: auto;
 }
 
 #navbarbutton{

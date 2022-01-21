@@ -1,0 +1,62 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Oxygen', sans-serif;
+}
+
+#navbarbrand{
+	margin-left: 2px;
+	font-weight: bold;
+	color: black;
+	font-size: 2em;
+}
+
+#mainheader{
+	padding-right: 0px;
+}
+
+#navbarfirst{
+	background-color: gray;
+	margin-bottom: 10px;
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+}
+
+#mainsection{
+	height: 1200px;
+	margin: 5px;
+	padding-left: 20px;
+	background-color: lightgray;
+}
+
+#navbarbutton{
+	background-color: lightgray;
+}
+
+#collapsable-nav{
+	clear: both;
+	background-color: slategray;
+	border:  5px solid black;
+	border-bottom: 0px;
+	width: 100%;
+}
+
+#nav-list li{
+	text-align: center;
+	text-transform: bold;
+	font-weight: 1.5em;
+	color: black;
+}
+
+hr{
+	border-top: 2px solid black;
+	width: 100%;
+}
+
+@media (min-width: 768px){
+	.container-fluid .navbar-header #collapsable-nav{
+		display: none!important;
+	}
+}
